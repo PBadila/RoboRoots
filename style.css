@@ -58,3 +58,18 @@ input[type="submit"] {
 #roboRootsInterest{
     text-align:center;
 }
+.bold{
+    font-weight: bold;
+}
+.features {
+    list-style-type: none; 
+    padding-left: 20px; 
+}
+
+.features li {
+    background-image: url('./imgs/robot.png'); /* Specify the path to your custom image */
+    background-size: 30px; /* Set the size of the custom image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: 0% 0%; /* Adjust the position of the image */
+    padding-left: 35px; /* Add padding to push the text away from the image */
+}
